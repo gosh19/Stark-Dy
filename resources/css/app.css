@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-trama-home{
+    background-color: black;
+    background-image: url('/images/trama.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@layer components {
+    .btn-orange {
+      @apply py-2 px-6 font-bold bg-orange-900 text-white rounded-full border-2 border-white flex items-center;
+    }
+}
